@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { logo, menu, close } from '../assets';
+import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
 
 
