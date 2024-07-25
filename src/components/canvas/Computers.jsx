@@ -10,9 +10,8 @@ const Computers = () => {
   return (
     <mesh>
       <hemisphereLight
-        skyColor={'white'}
-        groundColor={'#444444'}
-        intensity={0.3}
+        groundColor='black'
+        intensity={0.15}
       />
       <pointLight intensity={1} />
       <spotLight
