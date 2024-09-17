@@ -1,11 +1,15 @@
-import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
+import React, { useRef, useState } from "react";
 
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
+import { EarthCanvas } from "./canvas";
+
+// template_1rg9uws
+// service_qk1m2yw
+// qW_Y29H_yrO2nZXL8
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,16 +37,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_qk1m2yw',
+        'template_1rg9uws',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Narmathaa J B",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "balanarmathaa@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'qW_Y29H_yrO2nZXL8'
       )
       .then(
         () => {
