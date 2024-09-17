@@ -8,7 +8,7 @@ import {
   git,
   google,
   html,
-  Hackathon,
+  hackathon,
   javascript,
   jobit,
   meta,
@@ -119,8 +119,8 @@ const experiences = [
     {
         title: "Machine Learning Engineer",
         company_name: " Tri-Nit Hackathon’24",
-        icon: Hackathon,
-        iconBg: "#383E56",
+        icon: hackathon,
+        iconBg: "#E6DEDD",
         date: "November 2023",
         points: [
         "Automated road damage detection for infrastructure maintenance using MACHINE LEARNING",

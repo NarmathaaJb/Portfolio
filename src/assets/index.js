@@ -27,7 +27,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import coderscave from "./company/coderscave.png";
 import google from "./company/google.png";
-import Hackathon from "./company/Hackathon.jpg";
+import hackathon from "./company/hackathon.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -49,7 +49,7 @@ export {
   git,
   google,
   html,
-  Hackathon,
+  hackathon,
   javascript,
   mongodb,
   nodejs,
