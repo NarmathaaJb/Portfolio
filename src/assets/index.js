@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import coderscave from "./company/coderscave.png";
+import google from "./company/google.png";
+import Hackathon from "./company/Hackathon.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -34,6 +37,7 @@ export {
   logo,
   backend,
   creator,
+  coderscave,
   mobile,
   web,
   github,
@@ -43,7 +47,9 @@ export {
   docker,
   figma,
   git,
+  google,
   html,
+  Hackathon,
   javascript,
   mongodb,
   nodejs,

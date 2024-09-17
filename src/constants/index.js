@@ -1,29 +1,31 @@
 import {
-    backend,
-    carrent,
-    creator,
-    css,
-    docker,
-    figma,
-    git,
-    html,
-    javascript,
-    jobit,
-    meta,
-    mobile,
-    mongodb,
-    nodejs,
-    reactjs,
-    redux,
-    shopify,
-    starbucks,
-    tailwind,
-    tesla,
-    threejs,
-    tripguide,
-    typescript,
-    web,
+  backend,
+  carrent,
+  coderscave,
+  creator,
+  css,
+  figma,
+  git,
+  google,
+  html,
+  Hackathon,
+  javascript,
+  jobit,
+  meta,
+  mobile,
+  mongodb,
+  nodejs,
+  reactjs,
+  shopify,
+  starbucks,
+  tailwind,
+  tesla,
+  threejs,
+  tripguide,
+  web
 } from "../assets";
+
+
 
 export const navLinks = [
     {
@@ -31,13 +33,25 @@ export const navLinks = [
         title: "About",
     },
     {
-        id: "work",
-        title: "Work",
+        id: "experience",
+        title: "Experience",
     },
     {
-        id: "contact",
-        title: "Contact",
-    },
+      id: "tech",
+      title: "Tech",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "achievements",
+    title: "Achievements",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
 ];
 const services = [
     {
@@ -53,7 +67,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Data Analyst",
+        title: "UI UX Designer",
         icon: creator,
     },
 ];
@@ -72,16 +86,12 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Figma",
+        icon: figma,
     },
     {
         name: "Tailwind CSS",
@@ -103,47 +113,39 @@ const technologies = [
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Machine Learning Engineer",
+        company_name: " Tri-Nit Hackathon’24",
+        icon: Hackathon,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "November 2023",
         points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Automated road damage detection for infrastructure maintenance using MACHINE LEARNING",
+        "Collaborated with a four-person team to design and develop a Convolutional Neural Network (CNN) model.",
+        "Guided the implementation of real-time object detection using You Only Look Once (YOLO).",
+        "Achieved an accuracy of 81% in detecting and categorizing road damage.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Mobile App Developer",
+      company_name: "Google's Gemini API Developer Competition",
+      icon: google,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jun 2024 - Oct 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Story Generation App for Kids Using Gemini AI",
+        "Designed a user-friendly Flutter UI , enhancing the experience for both kids and parents with intuitive navigation and engaging visuals.",
+        "Developed dynamic story generation features using the Gemini API, allowing children to explore various genres.",
+        "Integrated a read-aloud feature to support young readers, making stories accessible through narration and improving overall engagement by 30%."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Web Developer Intern",
+      company_name: "CodersCave",
+      icon: coderscave,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
