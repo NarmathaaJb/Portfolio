@@ -1,25 +1,22 @@
 import {
   backend,
   carrent,
+  codecortex,
   coderscave,
   creator,
   css,
   figma,
   git,
   google,
-  html,
   hackathon,
+  html,
   javascript,
   jobit,
-  meta,
   mobile,
   mongodb,
   nodejs,
   reactjs,
-  shopify,
-  starbucks,
   tailwind,
-  tesla,
   threejs,
   tripguide,
   web
@@ -155,17 +152,19 @@ const experiences = [
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Participant - VIT Hackathon",
+      company_name: "Vellore Institute of Technology (VIT)",
+      icon:  codecortex,// You can replace this with the actual icon variable or image URL
+      iconBg: "#E6DEDD", // Customize the background color as needed
+      date: "Sept 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed *FarmLink*, a mobile app designed to connect farmers directly with consumers and retailers, reducing reliance on intermediaries.",
+        "Designed and implemented a user-friendly interface using React Native to ensure smooth navigation and ease of use across devices.",
+        "Built a backend with Node.js and integrated Firebase for real-time data management and secure user authentication.",
+        "Incorporated search and filtering features to allow users to easily browse and connect with farmers based on location and product type.",
+        "Collaborated with a team to successfully present the project, earning recognition for innovation in agriculture tech."
       ],
     },
   ];
