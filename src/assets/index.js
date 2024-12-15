@@ -32,17 +32,17 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import farmlink from "./farmlink.png";
+import happytales from "./happytales.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   backend, carrent, close, codecortex,
   coderscave, creator, css,
-  docker,
-  figma,
-  git, github, google, hackathon, hackathon_logo, html, javascript, jobit, logo, menu, meta, mobile, mongodb,
-  nodejs,
-  reactjs,
+  docker, farmlink, figma,
+  git, github, google, hackathon, hackathon_logo, happytales, html, javascript, jobit, logo, menu, meta, mobile, mongodb,
+  nodejs, reactjs,
   redux, shopify,
   starbucks, tailwind, tesla, threejs, tripguide, typescript, web
 };

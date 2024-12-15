@@ -4,20 +4,20 @@ import {
   codecortex,
   creator,
   css,
+  farmlink,
   figma,
   git,
   google,
   hackathon_logo,
+  happytales,
   html,
   javascript,
-  jobit,
   mobile,
   mongodb,
   nodejs,
   reactjs,
   tailwind,
   threejs,
-  tripguide,
   web
 } from "../assets";
 
@@ -182,66 +182,70 @@ const experiences = [
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "StayZen",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A MERN stack booking app that simplifies the process of booking various destinations and venues, offering users a seamless and hassle-free experience.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "express",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
           color: "pink-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
         },
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "HappyTales",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A Flutter-based story generating app using the Gemini API, designed for children. Features include genre selection, parental login, read-aloud functionality, and Firebase authentication.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "flutter",
+          color: "pink-text-gradient",
         },
         {
-          name: "restapi",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
+          name: "geminiapi",
+          color: "blue-text-gradient",
         },
       ],
-      image: jobit,
+      image: happytales,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "FarmLink",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A mobile app connecting farmers directly with consumers and retailers. It enables farmers to list produce, negotiate prices, and manage transactions, promoting fair trade and sustainable agriculture.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "flutter",
+          color: "pink-text-gradient",
         },
         {
-          name: "supabase",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "uiux",
+          color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
+      image: farmlink,
       source_code_link: "https://github.com/",
     },
   ];
