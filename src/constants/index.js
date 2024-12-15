@@ -2,13 +2,12 @@ import {
   backend,
   carrent,
   codecortex,
-  coderscave,
   creator,
   css,
   figma,
   git,
   google,
-  hackathon,
+  hackathon_logo,
   html,
   javascript,
   jobit,
@@ -116,7 +115,7 @@ const experiences = [
     {
         title: "Machine Learning Engineer",
         company_name: " Tri-Nit Hackathon’24",
-        icon: hackathon,
+        icon: hackathon_logo,
         iconBg: "#E6DEDD",
         date: "November 2023",
         points: [
@@ -131,7 +130,7 @@ const experiences = [
       company_name: "Google's Gemini API Developer Competition",
       icon: google,
       iconBg: "#E6DEDD",
-      date: "Jun 2024 - Oct 2024",
+      date: "Jun 2024 - Aug 2024",
       points: [
         "Story Generation App for Kids Using Gemini AI",
         "Designed a user-friendly Flutter UI , enhancing the experience for both kids and parents with intuitive navigation and engaging visuals.",
@@ -140,31 +139,16 @@ const experiences = [
       ],
     },
     {
-      title: "Web Developer Intern",
-      company_name: "CodersCave",
-      icon: coderscave,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-
-    {
       title: "Participant - VIT Hackathon",
       company_name: "Vellore Institute of Technology (VIT)",
       icon:  codecortex,// You can replace this with the actual icon variable or image URL
-      iconBg: "#E6DEDD", // Customize the background color as needed
-      date: "Sept 2023",
+      iconBg: "#000000", // Customize the background color as needed
+      date: "Sept 2024",
       points: [
-        "Developed *FarmLink*, a mobile app designed to connect farmers directly with consumers and retailers, reducing reliance on intermediaries.",
-        "Designed and implemented a user-friendly interface using React Native to ensure smooth navigation and ease of use across devices.",
-        "Built a backend with Node.js and integrated Firebase for real-time data management and secure user authentication.",
-        "Incorporated search and filtering features to allow users to easily browse and connect with farmers based on location and product type.",
-        "Collaborated with a team to successfully present the project, earning recognition for innovation in agriculture tech."
+        "Created FarmLink, a mobile app connecting farmers, consumers, and retailers, reducing reliance on intermediaries.",
+        "Designed an intuitive and visually engaging interface with Flutter, ensuring seamless performance and usability across platforms.",
+        "Engineered a Node.js backend with Firebase for real-time data and secure authentication.",
+        "Implemented advanced search and filtering to connect users by location and product type efficiently.",
       ],
     },
   ];

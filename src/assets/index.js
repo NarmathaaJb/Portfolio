@@ -25,6 +25,7 @@ import codecortex from "./company/codecortex.png";
 import coderscave from "./company/coderscave.png";
 import google from "./company/google.png";
 import hackathon from "./company/hackathon.png";
+import hackathon_logo from "./company/hackathon_logo.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -39,7 +40,7 @@ export {
   coderscave, creator, css,
   docker,
   figma,
-  git, github, google, hackathon, html, javascript, jobit, logo, menu, meta, mobile, mongodb,
+  git, github, google, hackathon, hackathon_logo, html, javascript, jobit, logo, menu, meta, mobile, mongodb,
   nodejs,
   reactjs,
   redux, shopify,
