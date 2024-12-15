@@ -35,6 +35,7 @@ import carrent from "./carrent.png";
 import farmlink from "./farmlink.png";
 import happytales from "./happytales.png";
 import jobit from "./jobit.png";
+import stayzen from "./stayzen.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -44,6 +45,6 @@ export {
   git, github, google, hackathon, hackathon_logo, happytales, html, javascript, jobit, logo, menu, meta, mobile, mongodb,
   nodejs, reactjs,
   redux, shopify,
-  starbucks, tailwind, tesla, threejs, tripguide, typescript, web
+  starbucks, stayzen, tailwind, tesla, threejs, tripguide, typescript, web
 };
 

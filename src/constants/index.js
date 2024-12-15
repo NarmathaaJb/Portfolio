@@ -1,6 +1,5 @@
 import {
   backend,
-  carrent,
   codecortex,
   creator,
   css,
@@ -16,6 +15,7 @@ import {
   mongodb,
   nodejs,
   reactjs,
+  stayzen,
   tailwind,
   threejs,
   web
@@ -184,7 +184,7 @@ const experiences = [
     {
       name: "StayZen",
       description:
-        "A MERN stack booking app that simplifies the process of booking various destinations and venues, offering users a seamless and hassle-free experience.",
+        "A MERN stack booking app that streamlines booking for destinations and venues. It offers an intuitive interface for users to search, book, and manage their plans. Designed for a seamless and hassle-free experience.",
       tags: [
         {
           name: "mongodb",
@@ -203,8 +203,8 @@ const experiences = [
           color: "green-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: stayzen,
+      source_code_link: "https://github.com/NarmathaaJb/StayZen",
     },
     {
       name: "HappyTales",
@@ -246,7 +246,7 @@ const experiences = [
         },
       ],
       image: farmlink,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/NarmathaaJb/FarmLink",
     },
   ];
   
