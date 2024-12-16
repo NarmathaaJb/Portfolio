@@ -43,7 +43,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a Full Stack Developer and Machine Learning Enthusiast. I have a passion for building scalable and efficient web applications.
+      Turning ideas into reality is my thing - whether it's crafting intelligent AI solutions or designing seamless user experiences. I’m all about merging tech and creativity to build tools that make a difference.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
