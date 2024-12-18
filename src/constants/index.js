@@ -153,32 +153,23 @@ const experiences = [
     },
   ];
   
-  const testimonials = [
+  const achievements = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      title: "Elite Certification",
+      organization: "NPTEL Exam",
+      date: "Jul. 2023 - Oct. 2023",
+      description:
+        "Received Elite certification in the following NPTEL exams: The Joy of Computing Using Python and Introduction to Industry 4.0 and Industrial Internet of Things.",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      title: "Infosys Springboard",
+      organization: "Certification",
+      date: "Jul. 2024",
+      description:
+        "Earned Artificial Intelligence Primer Certification and Artificial Intelligence Foundation Certification.",
     },
   ];
+  
   
   const projects = [
     {
@@ -250,4 +241,5 @@ const experiences = [
     },
   ];
   
-  export { experiences, projects, services, technologies, testimonials };
+  export { achievements, experiences, projects, services, technologies };
+
